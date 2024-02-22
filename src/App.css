@@ -1,1 +1,62 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap'); 
+body{
+  background-color: #613a43;
+  font-family: "Libre Baskerville", serif;
+}
+.mainbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.myboxquote {
+  width: 60%;
+  margin: 0 auto;
+  background: #fff;
+  padding: 40px 36px;
+  box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 14px;
+  height: 100%;
+}
+.datahead{
+  text-align: center;
+}
+.datahead h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.quotes h4 {
+  font-size: 22px;
+  line-height: 31px;
+  padding-bottom: 18px;
+  display: flex;
+  flex-direction: row;
+  line-height: 37px;
+  align-items: flex-start;
+}
+.quotes h5 {
+  text-align: right;
+  font-style: italic;
+}
+.renderquote {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+.mybtnwork {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.colorwork{
+  color: #613a43;
+}
+.bgwork{
+    background-color: #613a43;
+}
+svg.svg-inline--fa.fa-quote-left {
+  font-size: 36px;
+  padding-right: 20px;
+}
